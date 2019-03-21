@@ -22,5 +22,4 @@ public class Õý·½ÐÎ {
 			System.out.println();
 		}
 	}
-
 }
