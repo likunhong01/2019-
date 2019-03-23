@@ -37,11 +37,6 @@ public class 包子凑数 {
 			System.exit(0);
 		}
 		
-//		int leng = 1;
-//		for (int i = 0; i < arr.length; i++) {
-//			leng *= arr[i];
-//		}
-//		System.out.println(leng);
 		int dp[] = new int[1000000]; 
 		
 		// 初始化dp
