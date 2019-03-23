@@ -3,7 +3,6 @@ package day10;
 import java.util.Scanner;
 
 public class 高僧斗法 {
-
 	public static void main(String[] args) {
 		// TODO 自动生成的方法存根
 		Scanner scanner = new Scanner(System.in);
@@ -48,14 +47,4 @@ public class 高僧斗法 {
 		}
 		return -1;
 	}
-	
-	public static boolean check(int[] arr) {
-		for (int i = 0; i < arr.length - 1; i++) {
-			if (arr[i] != arr[i+1] - 1) {
-				return false;
-			}
-		}
-		return true;
-	}
-
 }

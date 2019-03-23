@@ -51,10 +51,12 @@ public class 约数倍数选卡片 {
 				// 如果下一个是必胜态，当前就是必负态
 				if (t == 1) {
 					return -1;
+				}else if (i == 0) {
+					return 1;
 				}
 			}
 		}
 		// 如果没有能拿的，就是必输态
-		return 1;
+		return -1;
 	}
 }
