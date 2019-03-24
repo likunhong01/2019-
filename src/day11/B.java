@@ -21,5 +21,6 @@ public class B
 		int[] a = {4,2,2,1,1,3};
 		
 		f(a,0,5,"");
+		System.out.println(String.format("%.2f", 0.23523));
 	}
 }
